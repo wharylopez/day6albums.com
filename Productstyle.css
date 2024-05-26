@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  
+  
+}
+
+body{
+   background-image: url(Images/bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+  
+  
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  color: white;
+  background-color: rgba(25,25,25,0.3);
+  
+
+
+}
+.column :hover{
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.6);  
+  border-radius: 10%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title{
+  text-align: center;
+  text-shadow: 0 7px 7px rgba(0,0,0,0.6);
+  text-decoration: none;
+}
+
+.column img{
+  width: 100%;
+}
+.top{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+
